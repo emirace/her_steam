@@ -69,10 +69,10 @@ const Footer = () => {
             </a>
           </div>
           <div className="mt-3 space-y-2">
-            <p className="flex items-center space-x-2">
-              <FaMapMarkerAlt className="text-purple-400" />{" "}
+            {/* <p className="flex items-center space-x-2">
+              <FaMapMarkerAlt className="text-purple-400" />
               <span>28 Street, New York City, USA</span>
-            </p>
+  </p> */}
             <p className="flex items-center space-x-2">
               <FaPhone className="text-purple-400" />{" "}
               <span>++234 807 748 7580, +233 542 74 5569 </span>
