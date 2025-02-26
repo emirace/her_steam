@@ -4,7 +4,7 @@ import IMAGES from "../assets/images";
 
 const JoinMovement = () => {
   return (
-    <div className="px-4 md:px-28  p-20">
+    <div id="join" className="px-4 md:px-28  p-20">
       <div className="flex flex-col md:flex-row items-center justify-between ">
         {/* Left Side - Heading & Content */}
         <div className="w-full md:w-1/2">

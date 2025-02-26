@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-background text-white py-10">
+    <footer id="contact" className="bg-background text-white py-10">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Logo & About */}
         <div>
@@ -29,22 +29,22 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-3">Useful Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="#about" className="text-gray-300 hover:text-white">
                 About Us
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="#donate" className="text-gray-300 hover:text-white">
                 Donate
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="#join" className="text-gray-300 hover:text-white">
                 Join Us
               </a>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <a href="#contact" className="text-gray-300 hover:text-white">
                 Contact Us
               </a>
             </li>

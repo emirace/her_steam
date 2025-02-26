@@ -6,7 +6,7 @@ const DonationCard = () => {
   const [showForm, setShowForm] = useState(false);
 
   return (
-    <div className="p-4 md:px-28">
+    <div id="donate" className="p-4 md:px-28">
       <div className="bg-background rounded-2xl p-4 md:p-6 flex flex-col md:flex-row items-center shadow-lg">
         <div className="relative w-full md:w-1/2">
           <img

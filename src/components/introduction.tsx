@@ -2,9 +2,12 @@ import IMAGES from "../assets/images";
 
 const Introduction = () => {
   return (
-    <section className="relative w-full px-6 lg:px-28 gap-8 min-h-[80vh] overflow-hidden flex flex-col lg:flex-row items-center">
+    <section
+      id="about"
+      className="relative w-full px-6 lg:px-28 gap-8 min-h-[80vh] overflow-hidden flex flex-col lg:flex-row items-center"
+    >
       <div className="lg:w-1/2 mb-6 lg:mb-0 flex justify-center items-center">
-        <div className="bg-gradient-to-r from-blue-400 to-purple-400 h-[80vh] w-80 absolute" />
+        <div className="bg-gradient-to-r from-blue-400 to-purple-400 h-80 md:h-[80vh] w-full md:w-80 absolute" />
         <img
           src={IMAGES.image1}
           alt="Girls in STEAM activities"

@@ -5,10 +5,10 @@ import { Link } from "react-router";
 
 const navLinks = [
   { name: "HOME", href: "/" },
-  { name: "ABOUT US", href: "/about-us" },
-  { name: "FILMOGRAPHY", href: "/filmography" },
-  { name: "SHOP", href: "/shop" },
-  { name: "CONTACT US", href: "/contact" },
+  { name: "ABOUT US", href: "/#about" },
+  { name: "JOIN", href: "/#join" },
+  { name: "DONATE", href: "/#donate" },
+  { name: "CONTACT US", href: "/#contact" },
 ];
 
 const Navbar = () => {
@@ -46,14 +46,14 @@ const Navbar = () => {
           } md:flex flex-col md:flex-row  items-center  gap-8 md:gap-16 font-medium`}
         >
           {navLinks.map((link, index) => (
-            <Link
+            <a
               key={index}
-              to={link.href}
+              href={link.href}
               className="text-sm hover:text-primary hover:scale-105 transition h-full"
               onClick={() => setIsOpen(false)}
             >
               {link.name}
-            </Link>
+            </a>
           ))}
         </nav>
 
@@ -64,12 +64,12 @@ const Navbar = () => {
           } md:flex md:pl-5 h-full items-center gap-4`}
         >
           <div onClick={() => setIsOpen(false)}>
-            <Link
-              to="/booking"
+            <a
+              href="#join"
               className="bg-gradient-to-r from-blue-400 to-purple-400  text-white  px-6 py-2 rounded-full font-medium hover:scale-105 transition"
             >
               Join the Initiative
-            </Link>
+            </a>
           </div>
         </div>
       </div>
