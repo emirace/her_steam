@@ -4,14 +4,14 @@ const Introduction = () => {
   return (
     <section
       id="about"
-      className="relative w-full px-6 lg:px-28 gap-8 min-h-[80vh] overflow-hidden flex flex-col lg:flex-row items-center"
+      className="relative w-full px-6 lg:px-28 gap-8 min-h-[80vh] overflow-hidden flex flex-col lg:flex-row items-center "
     >
       <div className="lg:w-1/2 mb-6 lg:mb-0 flex justify-center items-center">
         <div className="bg-gradient-to-r from-blue-400 to-purple-400 h-80 md:h-[80vh] w-full md:w-80 absolute" />
         <img
           src={IMAGES.image1}
           alt="Girls in STEAM activities"
-          className="rounded-full w-[30rem] h-[30rem] z-10 object-cover border-2 border-white shadow-2xl"
+          className="rounded-full w-[30rem] h-[30rem] z-10 object-cover border-2 border-white shadow-2xl my-10"
         />
       </div>
 
