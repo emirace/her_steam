@@ -1,0 +1,29 @@
+import DonationCard from "../components/donationCard";
+import Footer from "../components/footer";
+import Hero from "../components/hero";
+import WhyItMatters from "../components/howItsMatter";
+import Introduction from "../components/introduction";
+import JoinMovement from "../components/joinMovement";
+import MissionObjectives from "../components/missionObjective";
+import Navbar from "../components/navbar";
+import TargetAudience from "../components/targetAudience";
+import Testimonials from "../components/tetstimony";
+
+function Home() {
+  return (
+    <div>
+      <Navbar />
+      <Hero />
+      <Introduction />
+      <MissionObjectives />
+      <WhyItMatters />
+      <TargetAudience />
+      <Testimonials />
+      <DonationCard />
+      <JoinMovement />
+      <Footer />
+    </div>
+  );
+}
+
+export default Home;
