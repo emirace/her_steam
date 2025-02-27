@@ -2,6 +2,7 @@ import { RiMenu3Fill } from "react-icons/ri";
 import { IoCloseSharp } from "react-icons/io5";
 import { useState } from "react";
 import { Link } from "react-router";
+import IMAGES from "../assets/images";
 
 const navLinks = [
   { name: "HOME", href: "/" },
@@ -27,7 +28,7 @@ const Navbar = () => {
             to="/"
             className="flex items-center w-full md:w-auto  gap-2 text-white text-xl font-bold pr-5 py-2  "
           >
-            {/* <img src={IMAGES.logo} alt="Logo" width={180} height={180} /> */}
+            <img src={IMAGES.logo} alt="Logo" className="h-8" />
             HER STEAM
           </Link>
           <div className="text-3xl md:hidden bg-gradient-to-r from-blue-400 to-purple-400 rounded-lg p-1">

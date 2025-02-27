@@ -10,6 +10,7 @@ const IMAGES = {
   image8: new URL("./image8.webp", import.meta.url).href,
   image9: new URL("./image9.jpeg", import.meta.url).href,
   about: new URL("./about.JPG", import.meta.url).href,
+  logo: new URL("./logo.PNG", import.meta.url).href,
 };
 
 export default IMAGES;
