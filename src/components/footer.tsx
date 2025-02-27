@@ -3,7 +3,6 @@ import {
   FaTwitter,
   FaInstagram,
   FaGooglePlusG,
-  FaMapMarkerAlt,
   FaPhone,
   FaEnvelope,
 } from "react-icons/fa";
@@ -75,11 +74,11 @@ const Footer = () => {
   </p> */}
             <p className="flex items-center space-x-2">
               <FaPhone className="text-purple-400" />{" "}
-              <span>++234 807 748 7580, +233 542 74 5569 </span>
+              <span>+233 267 065 858, +234 807 748 7580 </span>
             </p>
             <p className="flex items-center space-x-2">
               <FaEnvelope className="text-purple-400" />{" "}
-              <span>Julietibrahim@gmail.com</span>
+              <span>hersteaminitiative@gmail.com</span>
             </p>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import AboutMe from "../components/aboutMe";
 import DonationCard from "../components/donationCard";
 import Footer from "../components/footer";
 import Hero from "../components/hero";
@@ -18,6 +19,7 @@ function Home() {
       <MissionObjectives />
       <WhyItMatters />
       <TargetAudience />
+      <AboutMe />
       <Testimonials />
       <DonationCard />
       <JoinMovement />
