@@ -72,10 +72,14 @@ const Footer = () => {
               <FaMapMarkerAlt className="text-purple-400" />
               <span>28 Street, New York City, USA</span>
   </p> */}
-            <p className="flex items-center space-x-2">
-              <FaPhone className="text-purple-400" />{" "}
-              <span>+233 267 065 858, +234 807 748 7580 </span>
-            </p>
+            <div className="flex  space-x-2">
+              <FaPhone className="text-purple-400 mt-1" />
+              <div>
+                <div>Canada: +1 (437) 860 7008</div>
+                <div>Ghana: +233 267 065 858</div>
+                <div>Nigeria: +234 815 772 9057</div>
+              </div>
+            </div>
             <p className="flex items-center space-x-2">
               <FaEnvelope className="text-purple-400" />{" "}
               <span>hersteaminitiative@gmail.com</span>
