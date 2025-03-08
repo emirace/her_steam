@@ -60,7 +60,10 @@ const Footer = () => {
             <a href="#" className="text-gray-300 hover:text-white">
               <FaTwitter className="text-lg" />
             </a>
-            <a href="#" className="text-gray-300 hover:text-white">
+            <a
+              href="https://www.instagram.com/hersteaminitiative?igsh=cWdjM29zNDJma200"
+              className="text-gray-300 hover:text-white"
+            >
               <FaInstagram className="text-lg" />
             </a>
             <a href="#" className="text-gray-300 hover:text-white">
@@ -76,6 +79,7 @@ const Footer = () => {
               <FaPhone className="text-purple-400 mt-1" />
               <div>
                 <div>Canada: +1 (437) 860 7008</div>
+                <div>USA: +1817 381 5340</div>
                 <div>Ghana: +233 267 065 858</div>
                 <div>Nigeria: +234 815 772 9057</div>
               </div>

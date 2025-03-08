@@ -43,7 +43,7 @@ const MissionObjectives = () => {
           <ObjectiveCard
             color="bg-blue-400"
             title="Increase Participation"
-            description="Boost the number of young women and girls aged 16-25 in STEAM education and careers."
+            description="Boost the number of young women and girls aged 16-35 in STEAM education and careers."
           />
           <ObjectiveCard
             color="bg-purple-500"

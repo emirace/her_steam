@@ -1,8 +1,15 @@
 import { BiCheckCircle } from "react-icons/bi";
 import { FaUpload } from "react-icons/fa6";
 import IMAGES from "../assets/images";
+import { useState } from "react";
 
 const JoinMovement = () => {
+  const [joined, setJoined] = useState(false);
+  const handleSend = async () => {
+    try {
+      setJoined(true);
+    } catch (error) {}
+  };
   return (
     <div id="join" className="px-4 md:px-28  p-20">
       <div className="flex flex-col md:flex-row items-center justify-between ">
@@ -77,10 +84,21 @@ const JoinMovement = () => {
               placeholder="Case Description..."
               className="border rounded-md p-3 w-full h-28"
             ></textarea>
-
-            <button className="w-full bg-gradient-to-r from-blue-400 to-purple-500 text-white py-3 rounded-full font-semibold">
-              Send Message
-            </button>
+            {joined ? (
+              <div className="text-center">
+                <div className="font-bold bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
+                  Thank you for joining
+                </div>
+                <div>Our team will reach out to you</div>
+              </div>
+            ) : (
+              <button
+                onClick={handleSend}
+                className="w-full bg-gradient-to-r from-blue-400 to-purple-500 text-white py-3 rounded-full font-semibold"
+              >
+                Send Message
+              </button>
+            )}
           </form>
         </div>
       </div>

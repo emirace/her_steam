@@ -91,7 +91,10 @@ const DonationCard = () => {
               ></textarea>
             </div>
 
-            <button className="w-full mt-6 bg-gradient-to-r from-blue-400 to-purple-400 text-white py-3 rounded-md font-semibold  transition">
+            <button
+              onClick={() => setShowForm(false)}
+              className="w-full mt-6 bg-gradient-to-r from-blue-400 to-purple-400 text-white py-3 rounded-md font-semibold  transition"
+            >
               Donate Now
             </button>
           </div>

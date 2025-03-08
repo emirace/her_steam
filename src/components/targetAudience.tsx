@@ -50,7 +50,7 @@ const TargetAudience = () => {
         <ul className="text-lg space-y-4 text-left max-w-xl mx-auto">
           <li className="flex items-start gap-2">
             <BiCheckCircle className="text-blue-400 text-lg" size={20} />
-            Girls aged 16-25 in both urban and rural areas of West Africa.
+            Girls aged 16-35 in both urban and rural areas of West Africa.
           </li>
           <li className="flex items-start gap-2">
             <BiCheckCircle className="text-blue-400 text-lg" size={20} />

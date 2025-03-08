@@ -31,13 +31,13 @@ const Introduction = () => {
           This gender gap not only limits the potential of young women but also
           hinders overall societal progress.
         </p>
-        <p className="opacity-80">
+        {/* <p className="opacity-80">
           Juliet Ibrahim, a passionate advocate for women's empowerment,
           envisions a future where young women in West Africa have equal
           opportunities to excel in Science, Technology, Engineering, Arts, and
           Mathematics. This initiative is her commitment to making that vision a
           reality.
-        </p>
+        </p> */}
         <p className="opacity-80">
           The HER STEAM Initiative is here to change that narrative. We focus on
           empowering girls and young women in Africa to pursue careers in STEAM
