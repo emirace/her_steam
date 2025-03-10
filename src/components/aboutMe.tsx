@@ -60,6 +60,14 @@ const AboutMe = () => {
           presence.
         </p>
 
+        <p className="relative mt-6 leading-relaxed">
+          Juliet Ibrahim, a passionate advocate for women's empowerment,
+          envisions a future where young women in West Africa have equal
+          opportunities to excel in Science, Technology, Engineering, Arts, and
+          Mathematics. This initiative is her commitment to making that vision a
+          reality.
+        </p>
+
         <div className="mt-10 flex gap-12">
           <div>
             <h3 className="text-3xl font-bold">100%</h3>

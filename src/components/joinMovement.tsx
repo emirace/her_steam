@@ -59,7 +59,7 @@ const JoinMovement = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <input
                 type="text"
-                placeholder="First Name"
+                placeholder="Full Name"
                 className="border rounded-md p-3 w-full"
               />
               <input
