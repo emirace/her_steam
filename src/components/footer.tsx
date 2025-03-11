@@ -6,6 +6,7 @@ import {
   FaPhone,
   FaEnvelope,
 } from "react-icons/fa";
+import IMAGES from "../assets/images";
 
 const Footer = () => {
   return (
@@ -13,9 +14,11 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Logo & About */}
         <div>
-          <h2 className="text-2xl font-bold flex items-center gap-2 space-x-2">
+          {/* <h2 className="text-2xl font-bold flex items-center gap-2 space-x-2">
             <span className="text-white">HER</span>STEAM.
-          </h2>
+          </h2> */}
+          <img src={IMAGES.logo2} alt="Logo" className="h-10" />
+
           <p className="text-gray-300 mt-3">
             {" "}
             We are committed to making a difference through donations. Your
