@@ -61,11 +61,14 @@ const AboutMe = () => {
         </p>
 
         <p className="relative mt-6 leading-relaxed">
-          Juliet Ibrahim, a passionate advocate for women's empowerment,
-          envisions a future where young women in West Africa have equal
-          opportunities to excel in Science, Technology, Engineering, Arts, and
-          Mathematics. This initiative is her commitment to making that vision a
-          reality.
+          Juliet Ibrahim, a dedicated advocate for women's empowerment, is on a
+          mission to bridge the opportunity gap for young women in West Africa.
+          With a strong commitment to fostering gender equality, she envisions a
+          future where aspiring women thrive in Science, Technology,
+          Engineering, Arts, and Mathematics (STEAM). Through this initiative,
+          she is turning that vision into action—creating pathways for
+          education, mentorship, and innovation that empower the next generation
+          of female leaders.
         </p>
 
         <div className="mt-10 flex gap-12">
