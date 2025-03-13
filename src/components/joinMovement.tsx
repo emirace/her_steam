@@ -43,13 +43,10 @@ const JoinMovement = () => {
         formDataToSend.append("file", formData.file);
       }
 
-      const response = await fetch(
-        "https://julietibrahim.net/api/join-movement",
-        {
-          method: "POST",
-          body: formDataToSend,
-        }
-      );
+      const response = await fetch("https://julietibrahim.net/api/join", {
+        method: "POST",
+        body: formDataToSend,
+      });
 
       if (!response.ok) {
         throw new Error("Something went wrong!");
