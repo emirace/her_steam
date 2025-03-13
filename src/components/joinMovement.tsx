@@ -1,5 +1,5 @@
 import { BiCheckCircle } from "react-icons/bi";
-import { FaUpload } from "react-icons/fa6";
+import { FaUpload, FaCheckCircle } from "react-icons/fa";
 import IMAGES from "../assets/images";
 import { useState } from "react";
 
@@ -22,9 +22,12 @@ const JoinMovement = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const [fileUploaded, setFileUploaded] = useState(false);
+
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files?.length) {
       setFormData({ ...formData, file: e.target.files[0] });
+      setFileUploaded(true); // Show uploaded notice
     }
   };
 
@@ -126,7 +129,7 @@ const JoinMovement = () => {
                 required
               />
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-4">
               <input
                 type="text"
                 name="subject"
@@ -136,15 +139,23 @@ const JoinMovement = () => {
                 className="border rounded-md p-3 w-full"
                 required
               />
-              <label className="border rounded-md p-3 w-full flex items-center justify-between cursor-pointer">
-                Upload Your CV
-                <FaUpload />
-                <input
-                  type="file"
-                  className="hidden"
-                  onChange={handleFileChange}
-                />
-              </label>
+              <div>
+                <label className="border rounded-md p-3 w-full flex items-center justify-between cursor-pointer">
+                  Upload Your CV
+                  <FaUpload />
+                  <input
+                    type="file"
+                    className="hidden"
+                    onChange={handleFileChange}
+                  />
+                </label>
+                {fileUploaded && (
+                  <p className="text-green-500 mt-2 flex items-center">
+                    <FaCheckCircle className="mr-2" /> {formData.file?.name}{" "}
+                    uploaded successfully!
+                  </p>
+                )}
+              </div>
             </div>
             <textarea
               name="message"
