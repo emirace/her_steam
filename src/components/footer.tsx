@@ -89,7 +89,7 @@ const Footer = () => {
             </div>
             <p className="flex items-center space-x-2">
               <FaEnvelope className="text-purple-400" />{" "}
-              <span>hersteaminitiative@gmail.com</span>
+              <span>foundation@hersteaminitiative.org</span>
             </p>
           </div>
         </div>
