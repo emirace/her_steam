@@ -43,7 +43,7 @@ const JoinMovement = () => {
         formDataToSend.append("file", formData.file);
       }
 
-      const response = await fetch("https://julietibrahim.net/api/join", {
+      const response = await fetch("https://julietibrahim.com/api/join", {
         method: "POST",
         body: formDataToSend,
       });

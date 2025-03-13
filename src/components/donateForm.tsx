@@ -29,7 +29,7 @@ function DonateForm({ close }: { close: () => void }) {
     setSuccess("");
 
     try {
-      const response = await fetch("https://julietibrahim.com/donate", {
+      const response = await fetch("https://julietibrahim.com/api/donate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
