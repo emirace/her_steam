@@ -7,6 +7,7 @@ import Introduction from "../components/introduction";
 import JoinMovement from "../components/joinMovement";
 import MissionObjectives from "../components/missionObjective";
 import Navbar from "../components/navbar";
+import Partners from "../components/partiners";
 import TargetAudience from "../components/targetAudience";
 import Testimonials from "../components/tetstimony";
 
@@ -23,6 +24,7 @@ function Home() {
       <Testimonials />
       <DonationCard />
       <JoinMovement />
+      <Partners />
       <Footer />
     </div>
   );
